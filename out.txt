@@ -1,0 +1,235 @@
+Connection established.
+[{"img_path"=>"http://s12.postimg.org/b9or5bsnd/o_LB7_Q2_CBRi_G2_Kw54hzg0bw_1440x700.jpg", "url_path"=>"http://postimg.org/image/b9or5bsnd"}, {"img_path"=>"http://s15.postimg.org/ie5lo3zuv/UDobhu_PITQu_UYa_OQSUmp_Ww_1440x700.jpg", "url_path"=>"http://postimg.org/image/ie5lo3zuv"}, {"img_path"=>"http://s23.postimg.org/yy47cshuf/1p_Q2_KNRf_Sve5aytxq_Da96g_1440x700.jpg", "url_path"=>"http://postimg.org/image/yy47cshuf"}, {"img_path"=>"http://s30.postimg.org/njp6o8gl9/0_Aq_ZO9i_FRE_ZD997_Bslih_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/njp6o8gl9"}]
+******************************
+/car-rental/al/fairhope
+owner :- David’s
+make_and_model :- smart fortwo
+year :- 2013
+description :- Car is like new. Trunk big enough. 45 miles per gallon.
+price :- 39
+******************************
+[{"img_path"=>"http://s28.postimg.org/q69o3l32h/Mqc_Fkm2s_TLm_Jtj_G9_Ria_Pcw_1440x700.jpg", "url_path"=>"http://postimg.org/image/q69o3l32h"}, {"img_path"=>"http://s10.postimg.org/kte0lq3h1/z_W3c5_Ht_LRGOlg_X_WVFOo7_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/kte0lq3h1"}, {"img_path"=>"http://s4.postimg.org/qe07p8wdl/VDab_KW4_URnq4h1_Mm_Ec_Ri_Rg_1440x700.jpg", "url_path"=>"http://postimg.org/image/qe07p8wdl"}, {"img_path"=>"http://s14.postimg.org/ephfeucvx/i7_Ar_Hl_If_S6m7iabvb7_FOy_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/ephfeucvx"}]
+******************************
+/car-rental/al/huntsville
+owner :- Misty’s
+make_and_model :- Mercury Milan
+year :- 2011
+description :- Non SmokerBlueToothCD PlayerAM/FM RadioFuel Economy 22/29 mpgSeats 5Front Wheel Drive8 Way Power Driver Seat Power Passenger SeatHeated Front SeatsPower WindowsCruise ControlNo smoking in the car under no circumstances.
+price :- 32
+******************************
+[{"img_path"=>"http://s12.postimg.org/733wpzt1l/dn9e_VSq_IShm_NAgxkv_Vf0t_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/733wpzt1l"}, {"img_path"=>"http://s29.postimg.org/bsvlrjjkz/tz_O1_FZEZQdy_N6_Jyo_F3y_X2_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/bsvlrjjkz"}, {"img_path"=>"http://s23.postimg.org/lnpzu4mzb/WWPfc_Ziy_Qp2kt5_Qsr0_LI9g_1440x700.jpg", "url_path"=>"http://postimg.org/image/lnpzu4mzb"}, {"img_path"=>"http://s21.postimg.org/70wgmj4yr/go_Ng3_Yj_RDq_Jp_Kp4v6_PZ5w_1440x700.jpg", "url_path"=>"http://postimg.org/image/70wgmj4yr"}]
+******************************
+/car-rental/al/huntsville
+owner :- Misty’s
+make_and_model :- Saturn ION
+year :- 2005
+description :- Honestly, nothing fancy about this car.  Everything is pretty much manual in this car including the windows.  This is not a car that you should take on a long trip.  But....if you are looking to just get around town, to or from work, or need a car while yours is in the shop, this will be the best inexpensive option you will find.  I do have a Sony removable radio that I will put in if you rent it. As you can see in the picture it is missing.   I just don't keep it in the car if I am not in it.  No smoking in the car under no circumstances.
+price :- 16
+******************************
+[{"img_path"=>"http://s11.postimg.org/xn8kqe3fj/Aqru5_Gs7_QCi3oud_AW3_Wg_Vg_1440x700.jpg", "url_path"=>"http://postimg.org/image/xn8kqe3fj"}, {"img_path"=>"http://s2.postimg.org/f5nnwf3dh/GO_Rz_Po_GQr_Wf_J7kvko_Wk_PA_1440x700.jpg", "url_path"=>"http://postimg.org/image/f5nnwf3dh"}, {"img_path"=>"http://s21.postimg.org/w9lvtxzab/UDT92_Cu_BQK6_DTga_SPSme8_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/w9lvtxzab"}, {"img_path"=>"http://s4.postimg.org/4g3qvghd5/Wt_ZYCSPy_Rpa_Kf_XSGmd_W9_Tg_1440x700.jpg", "url_path"=>"http://postimg.org/image/4g3qvghd5"}, {"img_path"=>"http://s22.postimg.org/uhfa9knhp/Q14_FV2_P8_Sgypnhr_Mayw_KIA_1440x700.jpg", "url_path"=>"http://postimg.org/image/uhfa9knhp"}]
+******************************
+/car-rental/al/huntsville
+owner :- David’s
+make_and_model :- Cadillac CTS
+year :- 2006
+description :- Very well maintained, dependable vehicle. Includes Sirius XM Satellite Radio, OnStar for (directions, road conditions, weather etc) Has all electric power vehicle controls, offers great gas mileage with comfort, and sport driving. Also has a Bose music system with CD player. Need anything special ? or have any requests, please let me know ! I'd be glad to accommodate your needs. And make your experience pleasurable and care-free ! Vehicle also has hands-free calling, with blue-tooth  / and in car connection . Emergency cabin calls Unlimited ! / and Complimentary 15 minutes cellular service included in rental !
+price :- 44
+******************************
+[{"img_path"=>"http://s29.postimg.org/r6paezkkj/Ccbp_EIz4_Ttm_IOQco_KOKPA_1440x700.jpg", "url_path"=>"http://postimg.org/image/r6paezkkj"}, {"img_path"=>"http://s8.postimg.org/wrcx8lwoh/w_Tt_Azat_PSAWDo_Mv_WE_s_DOQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/wrcx8lwoh"}]
+******************************
+/car-rental/al/huntsville
+owner :- Neal’s
+make_and_model :- Lincoln MKZ
+year :- 2012
+description :- 
+price :- 29
+******************************
+[{"img_path"=>"http://s27.postimg.org/qwl0yahkv/o_LB7_Q2_CBRi_G2_Kw54hzg0bw_1440x700.jpg", "url_path"=>"http://postimg.org/image/qwl0yahkv"}, {"img_path"=>"http://s24.postimg.org/3o6c8mlo1/UDobhu_PITQu_UYa_OQSUmp_Ww_1440x700.jpg", "url_path"=>"http://postimg.org/image/3o6c8mlo1"}, {"img_path"=>"http://s16.postimg.org/59lvxilw1/1p_Q2_KNRf_Sve5aytxq_Da96g_1440x700.jpg", "url_path"=>"http://postimg.org/image/59lvxilw1"}, {"img_path"=>"http://s1.postimg.org/edf6kg8uj/0_Aq_ZO9i_FRE_ZD997_Bslih_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/edf6kg8uj"}]
+******************************
+/car-rental/al/mobile
+owner :- David’s
+make_and_model :- smart fortwo
+year :- 2013
+description :- Car is like new. Trunk big enough. 45 miles per gallon.
+price :- 39
+******************************
+[{"img_path"=>"http://s28.postimg.org/6i5wyamdl/m9_Eiv_KWk_RPGofnh5_MOVLGQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/6i5wyamdl"}]
+******************************
+/car-rental/al/vestavia-hills
+owner :- Kripal’s
+make_and_model :- Toyota Prius
+year :- 2005
+description :- prius 2005
+price :- 22
+******************************
+[{"img_path"=>"http://s17.postimg.org/h8551kyzv/Gg2n_YCLXSQW_m7zs8_ZC33_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/h8551kyzv"}, {"img_path"=>"http://s28.postimg.org/svdnl3nbd/YY5_Q9_HWDTi_Kab95_Xz_MULKA_1440x700.jpg", "url_path"=>"http://postimg.org/image/svdnl3nbd"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Charles’s
+make_and_model :- Tesla Model S
+year :- 2015
+description :- Quickest Production Car in Alaska
+price :- 425
+******************************
+[{"img_path"=>"http://s18.postimg.org/686ap5a79/tzbhn6s_NTr_Opfoa_Os3_R4jw_1440x700.jpg", "url_path"=>"http://postimg.org/image/686ap5a79"}, {"img_path"=>"http://s8.postimg.org/sm20moywh/MDwp6n_Nx_Qa_Km_Dmvt_BHn1_XQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/sm20moywh"}, {"img_path"=>"http://s4.postimg.org/uqyr7o549/Z4_Gn_S7q_XSIOA2mjh9_Scy_GQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/uqyr7o549"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Crystal’s
+make_and_model :- Toyota Corolla
+year :- 2015
+description :- Excellent winter tiresVery cleanLow milesBluetoothHands-free calling29/36 mpg city/hwyAC for summer, great heater for winterBlock heater for colder winter weatherCurrent tires are Blizzak winter tires (available, at minimum, December-April). These tires do well on ice and snow.Summer tires are rated for snow and mud (standard May - November)No cruise control (model L)NO SMOKINGNO PETS
+price :- 20
+******************************
+[{"img_path"=>"http://s28.postimg.org/921jse9xl/F8pe_RSz4_Rlq6_Mzm_GPP_Zqg_1440x700.jpg", "url_path"=>"http://postimg.org/image/921jse9xl"}, {"img_path"=>"http://s9.postimg.org/janhrvhkr/xnah7j_F_Q8_S7rd_Pg2b_Cnig_1440x700.jpg", "url_path"=>"http://postimg.org/image/janhrvhkr"}, {"img_path"=>"http://s22.postimg.org/6t4ubex9p/d7_Cn_BTh_UR4_Ouv_Rtxuq_H09w_1440x700.jpg", "url_path"=>"http://postimg.org/image/6t4ubex9p"}, {"img_path"=>"http://s1.postimg.org/ytusgf8i3/YWhe_Iab_LQ6aa_Ni_ZB8z_DIBg_1440x700.jpg", "url_path"=>"http://postimg.org/image/ytusgf8i3"}, {"img_path"=>"http://s21.postimg.org/ulmqfaler/og_Hws_OOh_RNy3ef_Ebm8q_CGw_1440x700.jpg", "url_path"=>"http://postimg.org/image/ulmqfaler"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Kristine’s
+make_and_model :- Volkswagen Jetta
+year :- 2010
+description :- Why you should rent the Volkswagen Jetta TDI: Comfortable leather interior, premium surround sound, front wheel drive, traction control, sunroof…oh, and the turbo diesel engine gets 44mpg on the highway. Back seats fold flat for extra storage or camping supplies. Snow tires in winter/ all-season radials otherwiseSummer rates are 30% higher than winter rates. Since Relayrides is still establishing pricing options inquire for off-season special offer.
+price :- 44
+******************************
+[{"img_path"=>"http://s15.postimg.org/3kw1o0ax3/J9_Ukf_Rj_CTU6x6n_EF83kc_Dw_1440x700.jpg", "url_path"=>"http://postimg.org/image/3kw1o0ax3"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Christian’s
+make_and_model :- Subaru Forester
+year :- 2001
+description :- This Forester is very efficient and roomy feeling. It's a good AWD rig for Alaska's roads. There is a privacy cover for the cargo area and a keyless entry remote
+price :- 35
+******************************
+[{"img_path"=>"http://s17.postimg.org/es3bnqgx7/Ll2_Hspb_RR0_C649_Mz_Ee4_SOg_1440x700.jpg", "url_path"=>"http://postimg.org/image/es3bnqgx7"}, {"img_path"=>"http://s4.postimg.org/5q65o90ix/LA5_KMVJ3_TY2u7o4ufih9n_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/5q65o90ix"}, {"img_path"=>"http://s2.postimg.org/pfuo9eimt/Ueu_Vxv_V9_QSWORPvg4l1_CPA_1440x700.jpg", "url_path"=>"http://postimg.org/image/pfuo9eimt"}, {"img_path"=>"http://s8.postimg.org/a91fc4ofl/T0_Twg_Nu_VRCy_Vu8_Eb_DEZz_BA_1440x700.jpg", "url_path"=>"http://postimg.org/image/a91fc4ofl"}, {"img_path"=>"http://s8.postimg.org/6qu0thcxd/ynq_Ph_MMQl_Sl_Ze0k_WBaxsw_1440x700.jpg", "url_path"=>"http://postimg.org/image/6qu0thcxd"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Crystal’s
+make_and_model :- Toyota Camry
+year :- 2013
+description :- Clean, well-maintainedRated 35-36 hwyLOTS of leg room - both front and back seats8-way power driver seatBluetoothVery good soundACFront seats recline all of the way back for those who plan to nap in the vehicleLarge trunkHandles very well on both summer and winter roadsNO SMOKINGNO PETS
+price :- 56
+******************************
+[{"img_path"=>"http://s15.postimg.org/s2o5bwdhj/x_YBLp0_Sr_QI_i85q_Oh5_U4r_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/s2o5bwdhj"}, {"img_path"=>"http://s4.postimg.org/t6y0n0m3t/c2_Nk_Nk_IR4qt_Tku_AMf_Ss_Bg_1440x700.jpg", "url_path"=>"http://postimg.org/image/t6y0n0m3t"}, {"img_path"=>"http://s2.postimg.org/l30q4pz9x/N_DQZMQw_Qy_Ck_Huys_ABXQ2w_1440x700.jpg", "url_path"=>"http://postimg.org/image/l30q4pz9x"}, {"img_path"=>"http://s27.postimg.org/mfx9dcsqn/v_O3_WHSor_Rkm_HE9iuy_FBahw_1440x700.jpg", "url_path"=>"http://postimg.org/image/mfx9dcsqn"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Vicsuntec’s
+make_and_model :- Toyota Prius
+year :- 2012
+description :- UNLIMITED MILEAGEGOOD GAS MILEAGE ( HYBRID )WINTER TIRES ( STUDDED )MINIMUM RENTAL  2 DAYS
+price :- 36
+******************************
+[{"img_path"=>"http://s12.postimg.org/9n4lh7mx5/xkwi86g8_S6_8_Cd7_OEIY9s_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/9n4lh7mx5"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Julie’s
+make_and_model :- Audi A5
+year :- 2012
+description :- The Audi is a driving experience! It has adjustable heated leather seats, a Premium sound system and large moonroof for an enjoyable drive. Whether you are staying in town or driving for a distance this car is comfortable and fully loaded with extras.
+price :- 74
+******************************
+[{"img_path"=>"http://s29.postimg.org/rnai1f8bn/eld2i_Pca_To68e_Q_Rse_Sfh_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/rnai1f8bn"}, {"img_path"=>"http://s15.postimg.org/zazs16q87/Tf8g_UQo_RS2mzxih_h_wz_FQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/zazs16q87"}, {"img_path"=>"http://s14.postimg.org/7l4o2xby5/m_AD4_Zl2f_R42_YASTn_XHZl_Ig_1440x700.jpg", "url_path"=>"http://postimg.org/image/7l4o2xby5"}, {"img_path"=>"http://s22.postimg.org/weh2b9kh9/6_g_LKa_QERo_CTdw3s_I6_F2lg_1440x700.jpg", "url_path"=>"http://postimg.org/image/weh2b9kh9"}, {"img_path"=>"http://s11.postimg.org/8q9sn84bj/n_Btl_A2_HJRJyka_Ba_PMsev_Kg_1440x700.jpg", "url_path"=>"http://postimg.org/image/8q9sn84bj"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Melissa’s
+make_and_model :- Cadillac ATS
+year :- 2014
+description :- This is the Cadillac ATS AWD luxury turbo edition with Bose surround sound, Bluetooth, sunroof, heated leather seats and steering wheel, dual climate control, back up camera, lane departure warning and On Star Turn by turn Navigation, just press the Blue On Star button. Amazingly comfortable vehicle. Pair your phone with the vehicle easily. This vehicle has all the bells and whistles, winter tires during winter rentals and all weather run flats the rest of the year, very clean and extremely low miles. Still covered by the Cadillac Care warranty and so all maintenance is up to date and this car will not leave you stranded on the Alaskan roads. I have an emergency kit in the trunk with jumper cables, flashlight, tire inflater. This is not just the car you "need", this is the car you "WANT".On a side note if you smoke or think there may be any smokers in the vehicle please do not rent my car, as I have family members with severe allergies.
+price :- 65
+******************************
+[{"img_path"=>"http://s12.postimg.org/qdfz6jlc9/EJl92qh_IRFO5wdt_Rp_TZ4_WQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/qdfz6jlc9"}, {"img_path"=>"http://s27.postimg.org/5goay3hj3/cn_Vk6yn_IQAuh_TRQGSt_OGs_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/5goay3hj3"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Jerry’s
+make_and_model :- BMW 3 Series
+year :- 2009
+description :- Powerful sport 2door coupe. Leather Heated seats & heated steering wheel!! Paddle shifters in sport mode. Bluetooth. USB & AUX stereo hookups. New brakes & tires. All wheel drive. Safe. Excellent handling.
+price :- 129
+******************************
+[{"img_path"=>"http://s7.postimg.org/tmnfb8tl3/MV0_O4_Lzo_Sl_CYvjqj_ISKiaw_1440x700.jpg", "url_path"=>"http://postimg.org/image/tmnfb8tl3"}, {"img_path"=>"http://s16.postimg.org/lsnevkdht/X2hk_Fuy_LRj_SL_Wxb_GNf_Qt_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/lsnevkdht"}, {"img_path"=>"http://s13.postimg.org/51fyt3yn7/Rb_QFxx_P3_Rxyyl_OESW2_Hkvg_1440x700.jpg", "url_path"=>"http://postimg.org/image/51fyt3yn7"}]
+******************************
+/car-rental/ak/anchorage
+owner :- Zachary’s
+make_and_model :- Chevrolet Impala
+year :- 2014
+description :- 
+price :- 23
+******************************
+[{"img_path"=>"http://s21.postimg.org/vziyoca1v/Ktqy_Ec_Qc_Tc_GZch_Z_li_Uo_Og_1440x700.jpg", "url_path"=>"http://postimg.org/image/vziyoca1v"}]
+******************************
+/car-rental/ak/fairbanks
+owner :- Nicole’s
+make_and_model :- Subaru Outback
+year :- 2015
+description :- This is the PERFECT car for Alaska.  Which is why- when you come up here- it will seem like at least 50% of the cars on the road are Subaru Outbacks.  Its 4WD, and has incredible clearance.  17" wheels, yet handles like a sports car.This is my 2nd Outback.  I pride myself on "taking care of my stuff."  My other has 185,000 miles and still running like a champ.  I bought this car primary for my Bed and Breakfast guests, whom I saw renting lousy cars for Alaska at outrageous prices.This new 2015 version has "eye sight" technology.  Meaning it senses when you are crossing into lanes, a car stopped in front of you too quickly- etc.  and takes appropriate action.  Amazing!It also has built-in GPS mapping, Bluetooth connectivity, and is just a marvel of engineering.  If you have hills to climb in Fairbanks, this is your car.
+price :- 55
+******************************
+[{"img_path"=>"http://s3.postimg.org/nlicn1tqn/ojpc_Jb_n_Q6_Ovdo56cl48_Ag_1440x700.jpg", "url_path"=>"http://postimg.org/image/nlicn1tqn"}, {"img_path"=>"http://s8.postimg.org/xku4eys35/ta_Gi_XWAw_SFGNz_C6_UEm_Okj_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/xku4eys35"}, {"img_path"=>"http://s7.postimg.org/sqvj9j9af/g_Fr_SAr_Ir_RPa9_WGUf_Yf_NBm_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/sqvj9j9af"}]
+******************************
+/car-rental/az/avondale
+owner :- Brandon’s
+make_and_model :- Mercedes-Benz C-Class
+year :- 2012
+description :- Beautiful metallic black Benz equipped with low profile AMG rims, full leather, XM radio, sun roof, premium sound system, clean interior, heated seats. Also have a limo party bus transportation business. Empress Entertainment LLC480-526-2004
+price :- 120
+******************************
+[{"img_path"=>"http://s7.postimg.org/yt3600xqf/l_IGV4ar_HTwe4zilvf_Cl_SOA_1440x700.jpg", "url_path"=>"http://postimg.org/image/yt3600xqf"}, {"img_path"=>"http://s2.postimg.org/mofzwj9hx/b_EDet_Oqp_St_fs_QQ5_OKTWFQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/mofzwj9hx"}, {"img_path"=>"http://s17.postimg.org/dpy72b4ff/zlm8n_A4_PR8a_Tg_NKKYR8_Xxw_1440x700.jpg", "url_path"=>"http://postimg.org/image/dpy72b4ff"}]
+******************************
+/car-rental/az/avondale
+owner :- Wesito’s
+make_and_model :- Volkswagen Jetta
+year :- 2010
+description :- Bluetooth music turn key on, but don't start and pair your phone pw is 0000First pic is same car but it has different rims and the headlights are not faded on this jetta.
+price :- 27
+******************************
+[{"img_path"=>"http://s17.postimg.org/3v71w30h7/Fy_Ze_Rd4n_Tp_Os_Ghbr7s_DYTA_1440x700.jpg", "url_path"=>"http://postimg.org/image/3v71w30h7"}, {"img_path"=>"http://s11.postimg.org/fah67b7q7/Xl_IQ1_y9_S5271g_Km_Huz_L3g_1440x700.jpg", "url_path"=>"http://postimg.org/image/fah67b7q7"}, {"img_path"=>"http://s30.postimg.org/6xc7swd19/e_EUFDC6_HSl_G6_Ry0_PBQVcq_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/6xc7swd19"}, {"img_path"=>"http://s14.postimg.org/9ooa22qil/BTV4tl8p_S8_Of2_J5_Q_pf_Eig_1440x700.jpg", "url_path"=>"http://postimg.org/image/9ooa22qil"}]
+******************************
+/car-rental/az/avondale
+owner :- Scott’s
+make_and_model :- Nissan Altima
+year :- 2015
+description :- 2015 Nissan Altima SV w/premium pkg (basically SL with cloth). Super clean and great music system. Bluetooth. Charcoal interior. Runs great. MPG around 27 city. -Remote start (factory) so you can cool it down before you have to get in. Works great. -Dual zone A/C with Auto Temp setting.-Rear seat A/C vents-Push button start (never take key out of pocket)-Unlock doors with key in pocket simply using door handle button-Sunroof-Bluetooth Streaming and Hands Free-Built-in Navigation-Tinted windowsGreat for trips or getting around town.
+price :- 41
+******************************
+[{"img_path"=>"http://s14.postimg.org/buikwktz1/1907re_Md_RAq_PZ5_DAVd_DCnw_1440x700.jpg", "url_path"=>"http://postimg.org/image/buikwktz1"}, {"img_path"=>"http://s8.postimg.org/ieo2o1229/d_BF7q_Cy_JQhi_Qp_sa_WV1_KTg_1440x700.jpg", "url_path"=>"http://postimg.org/image/ieo2o1229"}, {"img_path"=>"http://s11.postimg.org/r251i42cf/zk1gj9ck_R8_Sj_Oif_Xm88_Rk_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/r251i42cf"}, {"img_path"=>"http://s23.postimg.org/gt5hnc3fb/I6z_Jluz_JQ_S7_EAKL_Gw_Bkg_1440x700.jpg", "url_path"=>"http://postimg.org/image/gt5hnc3fb"}]
+******************************
+/car-rental/az/avondale
+owner :- Chuck’s
+make_and_model :- Toyota Corolla
+year :- 2010
+description :- This is a very clean and dependable car. I keep all scheduled maintenance up to date, keep the tires properly inflated and clean the car inside and out consistently. I'm retired Air Force and am willing to work with any military personnel and rent my car long term as long as its available.
+price :- 28
+******************************
+[{"img_path"=>"http://s10.postimg.org/3wy4ksaol/r_DO_pzos_Sg_OB44_Cnq66_Y2w_1440x700.jpg", "url_path"=>"http://postimg.org/image/3wy4ksaol"}, {"img_path"=>"http://s14.postimg.org/tuwdepbjx/OPPe_Io_Jo_Sq2_YKUNr6xbf_OA_1440x700.jpg", "url_path"=>"http://postimg.org/image/tuwdepbjx"}, {"img_path"=>"http://s13.postimg.org/c8hnoz9k3/xgfw_SAn_LTGK1_o_UBp_Bp_Zp_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/c8hnoz9k3"}, {"img_path"=>"http://s18.postimg.org/noe8w2db9/LXs6u_Cud_SNCj_Mu_FQ_dfs_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/noe8w2db9"}, {"img_path"=>"http://s14.postimg.org/reuk0uth9/CVDIQi_Al_QT_Iwo_Q763_D3_RQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/reuk0uth9"}]
+******************************
+/car-rental/az/avondale
+owner :- Thomas’s
+make_and_model :- Nissan 370Z
+year :- 2015
+description :- Up for rent is a new 2015 Nissan 370Z Nismo, they were redesigned this year and this is one of 8 2015 nismo's sold in Phoenix this year.If you re-rent a second time, I will discount the second trip.Features:2-seaterNismo Tuned EngineNismo Tunes suspension and breaks.Nismo hand-stitched interior (styled like GTR interior.)Suede seats, steering wheel, and interior.Nismo body kitSound dampeningPremium sound0-60 in 4.6 seconds.Please note the vehicle takes 91 octane premium gas only...I will give the car to you will full gas and expect a receipt showing gas replaced with premium...lower quality gas harms the engine.Please observe that smoking is not allowed in the vehicle.
+price :- 139
+******************************
+[{"img_path"=>"http://s23.postimg.org/swatawehj/TE54_Oqsd_S3i6_my_r_MQ9kw_1440x700.jpg", "url_path"=>"http://postimg.org/image/swatawehj"}, {"img_path"=>"http://s11.postimg.org/wsv7vuacf/ee_G8_ITZw_R_y_Wx_Y8hf_LI0_Jw_1440x700.jpg", "url_path"=>"http://postimg.org/image/wsv7vuacf"}, {"img_path"=>"http://s21.postimg.org/silhz40df/gz_XDOYHd_RHm_Sw_Urzkm_S1_Fw_1440x700.jpg", "url_path"=>"http://postimg.org/image/silhz40df"}, {"img_path"=>"http://s16.postimg.org/85cr9lu1d/mlq97_Dv_RNm_Lg_DC_CAq_Im_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/85cr9lu1d"}]
+******************************
+/car-rental/az/avondale
+owner :- Timothy’s
+make_and_model :- Nissan Altima
+year :- 2013
+description :- Full tank of Gas can go a long way with this car.
+price :- 36
+******************************
+[{"img_path"=>"http://s8.postimg.org/gcs6nitgx/e_O4z_Kb_Wf_Qja_OOX5_Y3_Qu98g_1440x700.jpg", "url_path"=>"http://postimg.org/image/gcs6nitgx"}, {"img_path"=>"http://s23.postimg.org/xkqt633o7/5_RBM6i_SQh_XO0y_OOUrneg_1440x700.jpg", "url_path"=>"http://postimg.org/image/xkqt633o7"}]
+******************************
+/car-rental/az/avondale
+owner :- Carrick’s
+make_and_model :- BMW 3 Series
+year :- 2011
+description :- 2011 BMW 328 convertible. Fully loaded with the M sport package, this BMW drives as good as it looks. A great vehicle literally for everything. Day trip, date night, city tour, weekend trips ... Put the top down and enjoy Arizona!. Definitely a fun and practical car for your enjoyment. Tons of features!  Here are some of the highlights:- Premium package, bluetooth wireless syncs for talking on the phone and playing music, USB charging - Navigation GPS built in.- M Sport Package, includes M steering wheel, M power seats and suspension- Automatic but ability to put into manual shift mode or automatic sport shift mode!- Outside: Silvermetallic color - Interior: Red leather - Heated seats and premium wheels - BMW full warranty and well maintained - Low mileage and properly insured
+price :- 71
+******************************
+[{"img_path"=>"http://s8.postimg.org/pacwkvlwx/i_QHA7u_K8_RRCP5_OOc87_Ha_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/pacwkvlwx"}, {"img_path"=>"http://s3.postimg.org/6ik65a2fj/l_EX4d9s_YSxaf7p_VT3bi_LHQ_1440x700.jpg", "url_path"=>"http://postimg.org/image/6ik65a2fj"}, {"img_path"=>"http://s29.postimg.org/m86txkn37/l_C7b_Z5o_Tj_b_Be6rkpr9z_Q_1440x700.jpg", "url_path"=>"http://postimg.org/image/m86txkn37"}, {"img_path"=>"http://s27.postimg.org/chgw4m8ov/KIXktg_B1_QKO5i_L_7xt_FZb_A_1440x700.jpg", "url_path"=>"http://postimg.org/image/chgw4m8ov"}]
+******************************
+/car-rental/az/avondale
+owner :- Andrew’s
+make_and_model :- Infiniti G37
+year :- 2008
+description :- Moonroof, Bose Premium Audio, Touch Screen Display, Leather/Dual Automatic Heated Seats, Backup Camera, Bluetooth Phone Connectivity, Wood Grain Accents, Dual Zone Auto Climate Control, RWD
+price :- 34
+******************************
