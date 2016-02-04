@@ -45,7 +45,7 @@ while true do
 				sel = 'div[data-item-index="' + i.to_s + '"]'
 				vehicle_url = car_listing_page.parser.css(sel).search("a")[0]["href"]
 				car_page = @agent.get("https://turo.com/" + vehicle_url)
-				Extracting car information
+				#Extracting car information
 				image_urls = []
 				count_of_images = car_page.parser.css(".js-carousel.carousel")[0]["data-item-count"]
 				j = 0
