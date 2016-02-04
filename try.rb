@@ -3,8 +3,11 @@
 # Complete data after evry 1 month
 
 require 'mechanize'
+require 'mysql'
 
 @agent = Mechanize.new
+
+@con = Mysql.new 'localhost', 'luxex_wp', 'MRY*o*<L', 'luxex_wp'
 
 while true do 
 	
@@ -70,7 +73,8 @@ while true do
 				description = car_page.parser.css(".grid-item.grid-item--10.u-breakWord").text.strip
 				price = car_page.parser.css(".vehicleListingSummary-dollars.vehicleListingSummary-dollars--sidebar.js-vehicleListingDailyAverage").text.strip
 				puts "*"*30
-				puts "city :- " + city_url[city_url.rindex("/").to_i+1..city_url.length]
+				city_obj = city_url[city_url.rindex("/").to_i+1..city_url.length]
+				puts "city :- " + city_obj
 				state_obj = key[key.rindex('/').to_i+1..key.length]
 				puts "state :- #{state_obj}"
 				puts "owner :- #{owner}"
@@ -79,6 +83,9 @@ while true do
 				puts "description :- #{description}"
 				puts "price :- #{price}"
 				puts "*"*30
+				query_form = "INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values('" + state_obj + "','" + city_obj + "','" + owner + "','" + make_and_model + "'," + year + ",'" + description + "'," + price + ")"
+				puts query_form 
+				@con.query(query_form)
 				i = i+1
 			end
 		end
