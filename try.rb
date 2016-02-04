@@ -70,8 +70,8 @@ while true do
 				description = car_page.parser.css(".grid-item.grid-item--10.u-breakWord").text.strip
 				price = car_page.parser.css(".vehicleListingSummary-dollars.vehicleListingSummary-dollars--sidebar.js-vehicleListingDailyAverage").text.strip
 				puts "*"*30
-				puts city_url[city_url.index("/").to_i+1..city_url.length]
-				puts "state :- #{key}"
+				puts city_url[city_url.rindex("/").to_i+1..city_url.length]
+				puts "state :- #{key[key.rindex('/')..key.length]}"
 				puts "owner :- #{owner}"
 				puts "make_and_model :- #{make_and_model}"
 				puts "year :- #{year}"
