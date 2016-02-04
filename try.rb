@@ -60,8 +60,8 @@ while true do
 					end.submit
 					str =  uploaded_page.parser.css("#code_2").text
 					obj = {}
-					obj['img_path'] = str[str.index("[img]")+5..str.index("[/img]")-1]
-					obj['url_path'] = str[str.index("url=")+4..str.index("/]")-1]
+					obj['img_path'] = str[str.index("[img]").to_i+5..str.index("[/img]").to_i-1]
+					obj['url_path'] = str[str.index("url=").to_i+4..str.index("/]").to_i-1]
 					image_urls << obj
 					j = j+1
 				end
