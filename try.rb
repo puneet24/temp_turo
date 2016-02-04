@@ -45,25 +45,26 @@ while true do
 				sel = 'div[data-item-index="' + i.to_s + '"]'
 				vehicle_url = car_listing_page.parser.css(sel).search("a")[0]["href"]
 				car_page = @agent.get("https://turo.com/" + vehicle_url)
-				# Extracting car information
-				# image_urls = []
-				# count_of_images = car_page.parser.css(".js-carousel.carousel")[0]["data-item-count"]
-				# j = 0
-				# while j < count_of_images.to_i do
-				# 	sel = 'div[data-item-index="' + j.to_s + '"]'
-				# 	img_str = car_page.parser.css(sel)[0]["style"].to_s
-				# 	uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
-				# 		url_field = form.field_with(:id => "upload")
-				# 		url_field.value = img_str[img_str.index('(')+1..img_str.index(')')-1]
-				# 	end.submit
-				# 	str =  uploaded_page.parser.css("#code_2").text
-				# 	obj = {}
-				# 	obj['img_path'] = str[str.index("[img]")+5..str.index("[/img]")-1]
-				# 	obj['url_path'] = str[str.index("url=")+4..str.index("/]")-1]
-				# 	image_urls << obj
-				# 	j = j+1
-				# end
-				# puts image_urls.inspect
+				Extracting car information
+				image_urls = []
+				count_of_images = car_page.parser.css(".js-carousel.carousel")[0]["data-item-count"]
+				j = 0
+				while j < count_of_images.to_i do
+					sel = 'div[data-item-index="' + j.to_s + '"]'
+					img_str = car_page.parser.css(sel)[0]["style"].to_s
+					puts img_str
+					# uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
+					# 	url_field = form.field_with(:id => "upload")
+					# 	url_field.value = img_str[img_str.index('(')+1..img_str.index(')')-1]
+					# end.submit
+					# str =  uploaded_page.parser.css("#code_2").text
+					# obj = {}
+					# obj['img_path'] = str[str.index("[img]")+5..str.index("[/img]")-1]
+					# obj['url_path'] = str[str.index("url=")+4..str.index("/]")-1]
+					# image_urls << obj
+					j = j+1
+				end
+				puts image_urls.inspect
 				owner = car_page.parser.css(".vehicleModelAndOwner-owner").text.strip
 				make_and_model = car_page.parser.css(".vehicleModelAndOwner-make-model").text.strip
 				year = car_page.parser.css(".vehicleModelAndOwner-year").text.strip
