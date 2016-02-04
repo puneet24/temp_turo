@@ -51,6 +51,8 @@ while true do
 				j = 0
 				while j < count_of_images.to_i do
 					sel = 'div[data-item-index="' + j.to_s + '"]'
+					puts sel
+					puts car_page.parser.css(sel).inspect
 					img_str = car_page.parser.css(sel)[0]["style"].to_s
 					puts img_str
 					uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
