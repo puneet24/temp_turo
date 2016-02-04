@@ -55,7 +55,8 @@ while true do
 					puts img_str
 					uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
 						url_field = form.field_with(:id => "upload")
-						url_field.value = img_str[img_str.index('(')+1..img_str.index(')')-1]
+						puts img_str.index('(')
+						url_field.value = img_str[img_str.index('(').to_i+1..img_str.index(')')-1]
 					end.submit
 					str =  uploaded_page.parser.css("#code_2").text
 					obj = {}
