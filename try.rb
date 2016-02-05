@@ -54,10 +54,18 @@ while true do
 				j = 0
 				while j < count_of_images.to_i do
 					sel = 'div[data-item-index="' + j.to_s + '"]'
-					img_str = car_page.parser.css(sel)[0]["data-src"].to_s
+					if j == 0
+						img_str = car_page.parser.css(sel)[0]["style"].to_s
+					else
+						img_str = car_page.parser.css(sel)[0]["data-src"].to_s
+					end
 					uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
 						url_field = form.field_with(:id => "upload")
-						url_field.value = img_str
+						if j == 0
+							url_field.value = img_str[img_str.index('(').to_i+1..img_str.index(')').to_i-1]
+						else
+							url_field.value = img_str
+						end
 					end.submit
 					str =  uploaded_page.parser.css("#code_2").text
 					obj = {}
