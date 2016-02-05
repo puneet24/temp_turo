@@ -91,11 +91,18 @@ while true do
 				# puts "description :- #{description}"
 				# puts "price :- #{price}"
 				# puts "*"*30
-				query_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '")'
+				
 				id_fetch_query = 'SELECT id from wp_data where state = "' + state_obj + '" and city = "' + city_obj + '" and owner_name = "' + owner + '" and make_and_model = "' + make_and_model + '"'
-				#puts query_form 
-				@con.query(query_form)
 				h = @con.query(id_fetch_query).fetch_row
+				insert_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '")'
+				update_form = 'UPDATE wp_data set state = "' + state_obj + '", city = "' + city_obj + '", make_and_model = "' + make_and_model + '", price = ' + price + ', model_year = "' + model_year + '", description = "' + description + '" where id = ' + h[0].to_s
+				if h.nil?
+					puts "insert"
+					@con.query(insert_form)
+				else
+					puts "update"
+					@con.query(update_form)
+				end
 				puts h
 				image_urls.each do |objs|
 					query_form = 'INSERT INTO wp_data_links(wp_data_id,img_path,url_path) values(' + h[0].to_s + ',"' + objs['img_path'].to_s + '","' + objs['url_path'].to_s + '")'
