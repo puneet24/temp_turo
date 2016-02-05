@@ -92,16 +92,16 @@ while true do
 				# puts "price :- #{price}"
 				# puts "*"*30
 				
-				id_fetch_query = 'SELECT id from wp_data where state = "' + state_obj + '" and city = "' + city_obj + '" and owner_name = "' + owner + '" and make_and_model = "' + make_and_model + '"'
+				id_fetch_query = 'SELECT id from wp_data where state = "' + state_obj.to_s + '" and city = "' + city_obj.to_s + '" and owner_name = "' + owner.to_s + '" and make_and_model = "' + make_and_model.to_s + '"'
 				h = @con.query(id_fetch_query).fetch_row
 				if h.nil?
 					puts "insert"
-					insert_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '")'
+					insert_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj.to_s + '","' + city_obj.to_s + '","' + owner.to_s + '","' + make_and_model.to_s + '",' + price.to_s +  ',' + year.to_s + ',"' + description.to_s + '")'
 					@con.query(insert_form)
 					h = @con.query(id_fetch_query).fetch_row
 				else
 					puts "update"
-					update_form = 'UPDATE wp_data set state = "' + state_obj + '", city = "' + city_obj + '", make_and_model = "' + make_and_model + '", price = ' + price + ', model_year = "' + year + '", description = "' + description + '" where id = ' + h[0].to_s
+					update_form = 'UPDATE wp_data set state = "' + state_obj.to_s + '", city = "' + city_obj.to_s + '", make_and_model = "' + make_and_model.to_s + '", price = ' + price.to_s + ', model_year = "' + year .to_s+ '", description = "' + description.to_s + '" where id = ' + h[0].to_s
 					@con.query(update_form)
 				end
 				puts h
