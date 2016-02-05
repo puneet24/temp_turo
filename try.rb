@@ -96,7 +96,7 @@ while true do
 				#puts query_form 
 				@con.query(query_form)
 				h = @con.query(id_fetch_query)
-				puts h
+				puts h.fetch_row
 				i = i+1
 			end
 		end
