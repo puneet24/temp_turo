@@ -98,6 +98,7 @@ while true do
 					puts "insert"
 					insert_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '")'
 					@con.query(insert_form)
+					h = @con.query(id_fetch_query).fetch_row
 				else
 					puts "update"
 					update_form = 'UPDATE wp_data set state = "' + state_obj + '", city = "' + city_obj + '", make_and_model = "' + make_and_model + '", price = ' + price + ', model_year = "' + year + '", description = "' + description + '" where id = ' + h[0].to_s
