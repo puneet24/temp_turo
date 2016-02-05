@@ -91,7 +91,7 @@ while true do
 				# puts "description :- #{description}"
 				# puts "price :- #{price}"
 				# puts "*"*30
-				query_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description,img_links) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '",' + img_links.to_s +')'
+				query_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description,img_links) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '",' + img_links + ')'
 				#puts query_form 
 				@con.query(query_form)
 				i = i+1
