@@ -98,7 +98,7 @@ while true do
 				h = @con.query(id_fetch_query).fetch_row
 				puts h
 				image_urls.each do |objs|
-					query_form = 'INSERT INTO wp_data_links(wp_data_id,img_path,url_path) values(' + h + ',"' + objs['img_path'] + '","' + objs['url_path'] + '")'
+					query_form = 'INSERT INTO wp_data_links(wp_data_id,img_path,url_path) values(' + h + ',"' + objs['img_path'].to_s + '","' + objs['url_path'].to_s + '")'
 					@con.query(query_form)
 				end
 				i = i+1
