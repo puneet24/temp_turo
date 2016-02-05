@@ -92,8 +92,10 @@ while true do
 				# puts "price :- #{price}"
 				# puts "*"*30
 				query_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj + '","' + city_obj + '","' + owner + '","' + make_and_model + '",' + price +  ',' + year + ',"' + description + '")'
+				id_fetch_query = 'SELECT id from wp_data where state = ' + state_obj + ' and city = ' + city_obj + ' and owner_name = ' + owner_name + ' and make_and_model = ' + make_and_model
 				#puts query_form 
-				h = @con.query(query_form)
+				@con.query(query_form)
+				h = @con.query(id_fetch_query)
 				puts h
 				i = i+1
 			end
