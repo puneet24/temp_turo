@@ -84,13 +84,13 @@ while true do
 				city_obj = city_url[city_url.rindex("/").to_i+1..city_url.length]
 				#puts "city :- " + city_obj
 				state_obj = key[key.rindex('/').to_i+1..key.length]
-				# puts "state :- #{state_obj}"
-				# puts "owner :- #{owner}"
-				# puts "make_and_model :- #{make_and_model}"
-				# puts "year :- #{year}"
-				# puts "description :- #{description}"
-				# puts "price :- #{price}"
-				# puts "*"*30
+				puts "state :- #{state_obj}"
+				puts "owner :- #{owner}"
+				puts "make_and_model :- #{make_and_model}"
+				puts "year :- #{year}"
+				puts "description :- #{description}"
+				puts "price :- #{price}"
+				puts "*"*30
 				
 				id_fetch_query = 'SELECT id from wp_data where state = "' + state_obj.to_s + '" and city = "' + city_obj.to_s + '" and owner_name = "' + owner.to_s + '" and make_and_model = "' + make_and_model.to_s + '"'
 				h = @con.query(id_fetch_query).fetch_row
