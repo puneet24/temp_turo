@@ -94,6 +94,7 @@ while true do
 				
 				id_fetch_query = 'SELECT id from wp_data where state = "' + state_obj.to_s + '" and city = "' + city_obj.to_s + '" and owner_name = "' + owner.to_s + '" and make_and_model = "' + make_and_model.to_s + '"'
 				h = @con.query(id_fetch_query).fetch_row
+				puts description.to_s.gsub("'","''")
 				if h.nil?
 					puts "insert"
 					insert_form = 'INSERT INTO wp_data(state,city,owner_name,make_and_model,price,model_year,description) values("' + state_obj.to_s + '","' + city_obj.to_s + '","' + owner.to_s + '","' + make_and_model.to_s + '",' + price.to_s +  ',' + year.to_s + ',"' + description.to_s.gsub("'","''") + '")'
