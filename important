@@ -1,0 +1,6 @@
+https://gist.github.com/textarcana/5855427
+
+For running python script on server.
+
+
+curl -sSL https://get.rvm.io | sed "s/which gp/which xp/g" | bash -s stable --ruby
