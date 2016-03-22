@@ -1,5 +1,4 @@
 require 'mechanize'
-require 'mysql'
 require 'elasticsearch'
 require 'rest-client'
 
@@ -15,7 +14,7 @@ res = client.search index: 'dev_car_luxury', type:'vehicles', body: {from: 0,que
 
 res["hits"]["hits"].each do |r|
 	puts r
-	q_res = client.search index: 'dev_car_luxury', type: 'all_vehicles', body: {query: {match: {mapped_id: r["_id"]}}}
+	q_res = client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_phrase: {mapped_id: r["_id"]}}}
 	puts "*"*60
 	puts q_res["hits"]["total"]
 	puts "*"*60
@@ -25,6 +24,8 @@ res["hits"]["hits"].each do |r|
 		car_page = @agent.get("https://turo.com" + vehicle_url)
 		#Extracting car information
 		image_urls = []
+		puts "@"*50
+		puts vehicle_url
 		count_of_images = car_page.parser.css(".js-carousel.carousel")[0]["data-item-count"]
 		j = 0
 		while j < count_of_images.to_i do
@@ -34,19 +35,17 @@ res["hits"]["hits"].each do |r|
 			else
 				img_str = car_page.parser.css(sel)[0]["data-src"].to_s
 			end
-			uploaded_page = imagehost_page.form_with(:name => "form1") do |form|
-				url_field = form.field_with(:id => "upload")
-				if j == 0
-					url_field.value = img_str[img_str.index('(').to_i+1..img_str.index(')').to_i-1]
-				else
-					url_field.value = img_str
-				end
-			end.submit
-			str =  uploaded_page.parser.css("#code_2").text
-			obj = {}
-			obj['img_path'] = str[str.index("[img]").to_i+5..str.index("[/img]").to_i-1]
-			obj['url_path'] = str[str.index("url=").to_i+4..str.index("/]").to_i-1]
-			image_urls << obj
+			path = ""
+			if j == 0
+				url_field_value = img_str[img_str.index('(').to_i+1..img_str.index(')').to_i-1]
+				path = "images/img#{j}_" + vehicle_url[vehicle_url.rindex('/').to_i+1..vehicle_url.length] + "g.jpg"
+				@agent.get(url_field_value).save path
+
+			else
+				path = "images/img#{j}_" + vehicle_url[vehicle_url.rindex('/').to_i+1..vehicle_url.length] + "g.jpg"
+				@agent.get(img_str).save path
+			end
+			image_urls << path
 			j = j+1
 		end
 		puts image_urls.inspect
@@ -77,7 +76,9 @@ res["hits"]["hits"].each do |r|
 		puts "price :- #{price}"
 		puts "*"*30
 		obj = '""'
-		index_res = client.index index: 'dev_car_luxury', type: 'all_vehicles', body: { owner: owner,make_and_model: make_and_model,year: year,description: description,price: price,owned_by: owned_by, lat: lat,long: lot,image_urls: image_urls,features: features,city: r["_source"]["city"],state:r["_source"]["state"], vehicle_url: vehicle_url,mapped_id: r["_id"]}
+		index_res = client.index index: 'dev_car_luxury', type: 'all_cars', body: { owner: owner,make_and_model: make_and_model,year: year,description: description,price: price,owned_by: owned_by, lat: lat,long: lot,image_urls: image_urls,features: features,city: r["_source"]["city"],state:r["_source"]["state"], vehicle_url: vehicle_url,mapped_id: r["_id"]}
 		puts index_res
 	end
 end
+
+

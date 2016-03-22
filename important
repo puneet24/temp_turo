@@ -4,3 +4,67 @@ For running python script on server.
 
 
 curl -sSL https://get.rvm.io | sed "s/which gp/which xp/g" | bash -s stable --ruby
+
+sL9RLRm0CQh5FIc
+
+work remaining :-
+
+1) little bit home page
+2) contact us
+3) search me filters css and 
+	logic according to that.
+4) car download actually and then displaying correctly. [ruby script change].
+5) car details page, slight changes.
+
+
+curl -XPUT 'localhost:9200/dev_car_luxury/_settings' -d '
+{
+    "index" : {
+        "max_result_window" : 60000
+    }
+}'
+
+
+
+LuxuryExotics
+PunSoh123
+Email: topnyseo@gmail.com
+
+
+
+127.0.0.1 localhost.localdomain localhost
+45.79.185.17 www.luxuryexotics.co punsa24
+2600:3c03::f03c:91ff:feb0:d8d3 www.luxuryexotics.co punsa24
+
+
+ssh root@45.79.185.17
+
+scp -r root@:162.144.120.250/root/car_luxury_prod/temp_turo/images all_images
+
+
+
+
+
+Congratulations,
+
+I am really speechless, you have awesomely cracked SAP interview. 
+
+I have said you so many times that if you are good then ultimately you will get good. 
+
+Finally Surabhi lot of parties are left for us.
+
+Big Amount + Big Amount = Very Big Amount
+
+Now we will have awesome party this weekend in Mumbai. :)
+
+
+
+Task to do :-
+
+1) location search (to try zip code) , make_and_model
+Filter :- price, year.  "[Complete elastc search based search]".
+
+Loading Icon while loading data.
+
+design :- image, uske upar search for locaton and radial bar.
+filter bar fixed. [make and model, price , year , list and map]

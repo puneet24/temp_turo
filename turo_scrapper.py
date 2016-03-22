@@ -49,13 +49,13 @@ for state in all_states:
   	city_url = 'https://turo.com/search#location=' + city[city.rfind('/')+1:]
   	match_data = {"query":{"match":{"city":city[city.rfind('/')+1:]}}}
   	match_data = json.dumps(match_data)
-  	res = requests.post('http://localhost:9200/dev_car_luxury/_search',data=match_data)
+  	res = requests.post('http://localhost:9200/prod_car_luxury/_search',data=match_data)
   	info = json.loads(res.content)
   	if info['hits']['total'] == 0:
 	  	print city_url
-	  	driver = webdriver.Firefox()
+	  	driver = webdriver.PhantomJS()
 		driver.get(city_url)
-		time.sleep(10) # wait to load
+		time.sleep(5) # wait to load
 		soup = BeautifulSoup(driver.page_source,"lxml")  
 		#print soup
 		f = str(soup)
@@ -66,7 +66,7 @@ for state in all_states:
 		  data = {"state":state,"city":city,"car_path":vehicle_path}
 		  data = json.dumps(data)
 		  print data
-		  v = requests.post('http://localhost:9200/dev_car_luxury/vehicles',data=data)
+		  v = requests.post('http://localhost:9200/prod_car_luxury/vehicles',data=data)
 		  print v
 		print h
 	else:
