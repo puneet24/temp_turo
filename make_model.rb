@@ -29,7 +29,7 @@ res["hits"]["hits"].each do |r|
 end
 
 @make_and_model.each do |key,value|
-	puts '{"mod" : "' + key + '", "cnt" : "' + value + '"},'
+	puts '{"mod" : "' + key.to_s + '", "cnt" : "' + value.to_s + '"},'
 end
 
 #puts @make_and_model.keys
