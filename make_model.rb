@@ -20,6 +20,7 @@ res["hits"]["hits"].each do |r|
 	if r["_source"]["make_and_model"].nil?
 		next
 	end
+	puts r["_source"]["make_and_model"]
 	if @make_and_model[r["_source"]["make_and_model"]].nil?
 		@make_and_model[r["_source"]["make_and_model"]] = 1
 	else
