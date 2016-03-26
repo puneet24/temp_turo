@@ -64,7 +64,15 @@ Task to do :-
 1) location search (to try zip code) , make_and_model
 Filter :- price, year.  "[Complete elastc search based search]".
 
+url refractoring.
+
 Loading Icon while loading data.
 
 design :- image, uske upar search for locaton and radial bar.
 filter bar fixed. [make and model, price , year , list and map]
+
+
+curl -XGET 'localhost:9200/dev_car_luxury/all_cars/_search' -d '{query:{filtered:{query:{match_all:{}},filter:{term:{state:'all-cities/al'}}}}}'
+
+
+curl -XGET 'localhost:9200/dev_car_luxury/all_cars/_search' -d '{query:{match:{state:"ca"}}}'
