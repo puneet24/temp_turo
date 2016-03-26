@@ -12,19 +12,19 @@ imagehost_page = @agent.get("http://postimage.org/index.php?um=web")
 
 client = Elasticsearch::Client.new 
 
-res = client.search index: 'dev_car_luxury', type:'vehicles', body: {from: 0,query: {match_all: {}},size: max_limit_rows}
+res =  client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_all: {}}}
 
 res["hits"]["hits"].each do |r|
-	q_res = client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_phrase: {mapped_id: r["_id"]}}}
+	#q_res = client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_phrase: {mapped_id: r["_id"]}}}
 	#puts r["_source"]["make_and_model"]
-	if r["_source"]["make_and_model"].nil?
-		next
-	end
+	
 	puts r["_source"]["make_and_model"]
-	if @make_and_model[r["_source"]["make_and_model"]].nil?
-		@make_and_model[r["_source"]["make_and_model"]] = 1
-	else
-		@make_and_model[r["_source"]["make_and_model"]] += 1
+	if !r["_source"]["make_and_model"].nil?
+		if @make_and_model[r["_source"]["make_and_model"]].nil?
+			@make_and_model[r["_source"]["make_and_model"]] = 1
+		else
+			@make_and_model[r["_source"]["make_and_model"]] += 1
+		end
 	end
 end
 
