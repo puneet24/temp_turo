@@ -18,7 +18,7 @@ res["hits"]["hits"].each do |r|
 	#q_res = client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_phrase: {mapped_id: r["_id"]}}}
 	#puts r["_source"]["make_and_model"]
 	
-	puts r["_source"]["make_and_model"]
+	#puts r["_source"]["make_and_model"]
 	if !r["_source"]["make_and_model"].nil?
 		if @make_and_model[r["_source"]["make_and_model"]].nil?
 			@make_and_model[r["_source"]["make_and_model"]] = 1
