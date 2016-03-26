@@ -12,7 +12,7 @@ imagehost_page = @agent.get("http://postimage.org/index.php?um=web")
 
 client = Elasticsearch::Client.new 
 
-res =  client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_all: {}}}
+res =  client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_all: {}},size: max_limit_rows}
 
 res["hits"]["hits"].each do |r|
 	#q_res = client.search index: 'dev_car_luxury', type: 'all_cars', body: {query: {match_phrase: {mapped_id: r["_id"]}}}
