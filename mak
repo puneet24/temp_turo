@@ -1,3 +1,4 @@
+[
 {"mod" : "BMW 7 Series", "cnt" : "384"},
 {"mod" : "Mercedes-Benz E-Class", "cnt" : "751"},
 {"mod" : "Honda Civic", "cnt" : "938"},
@@ -470,4 +471,5 @@
 {"mod" : "Audi SQ5", "cnt" : "1"},
 {"mod" : "Volkswagen Rabbit", "cnt" : "1"},
 {"mod" : "Mitsubishi Eclipse", "cnt" : "1"},
-{"mod" : "Mitsubishi Lancer Sportback", "cnt" : "1"},
+{"mod" : "Mitsubishi Lancer Sportback", "cnt" : "1"}
+]
